@@ -1,0 +1,215 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[american]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[utf8x]{inputenc}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0.5em}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+\usepackage[titles]{tocloft}
+\renewcommand{\cftdot}{}
+\usepackage[colorlinks=true, allcolors=magenta]{hyperref}
+\usepackage{url}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+\newtcbtheorem[number within=section]{thm}{Theorem}%
+{colback=white!5,colframe=SpringGreen!35!black,fonttitle=\bfseries}{theorem}
+\newtcbtheorem[number within=section]{exemple}{Example}%
+{colback=white!5,colframe=Magenta!35!black,fonttitle=\bfseries}{theorem}
+\newtcbtheorem[number within=section]{defn}{Definition}%
+{colback=white!5,colframe=SpringGreen!35!black,fonttitle=\bfseries, arc=0mm}{theorem}
+\newenvironment{proof}{\paragraph{Proof:}}{\hfill$\blacksquare$}
+%\usepackage{sectsty}
+%\subsectionfont{\color{RubineRed}}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=magenta,
+    filecolor=cyan,      
+    urlcolor=magenta,
+    pdftitle={Algebra: The Basics of It},
+    pdfpagemode=FullScreen,
+    }
+\author{\href{https://adairneto.github.io/}{Adair Antonio da Silva Neto}}
+\title{Algebra: The Basics of It}
+
+\begin{document}
+
+\clearpage\maketitle
+\thispagestyle{empty}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+\clearpage
+\setcounter{page}{1}
+
+\section{Introduction}
+
+In this text, we'll assume just basic Set Theory, involving the concepts of relations, equivalence classes, Cartesian product and so on.
+
+So... what is algebra about?
+
+% \section{Binary operation}\label{binary-operation}
+
+% \section{Group}\label{group}
+
+\section{Definitions}
+
+\subsection{Ring}\label{ring}
+
+Think about the set of integers \(\mathbb{Z} \) and the operations \(+\) and \(\times\) on it. What properties do these operations satisfy?
+
+We know that addition is associative and commutative and that it has a neutral element denoted by \(0\) and an inverse element.
+
+With respect to multiplication, it is associative and commutative, it has a neutral element and the addition is distributive with respect to multiplication.
+
+A ring is a generalization of these properties that we already know. In this section, we are going to study sets with two operations \(+\) and \(\times\) that satisfy the properties elucidated above. These operations are not necessarily the addition and multiplication that we know for \(\mathbb{Z}\).
+
+\begin{defn}{Ring}
+AA \textbf{commutative ring} \((A, +, \times)\) is a set \(A\) with at least two elements, an operation denoted by \(+\) (called addition) and an operation denoted by \(\times\) (called multiplication) satisfying:
+\begin{enumerate}
+\item[A1)] Addition is \textbf{associative}: \(\forall x,y,z \in A, (x+y)+z = x+(y+z)\)
+\item[A2)] Addition has a \textbf{neutral element}: \(\exists 0 \in A\) such that $\forall x \in A, 0+x = x$ and $x+0 = x$.
+\item[A3)] Addition has an \textbf{inverse element}: \(\forall x \in A, \exists z \in A\) such that $x+z = 0$ and $z+x = 0$.
+\item[A4)] Addition is \textbf{commutative}: \(\forall x, y \in A, x+y = y+x\).
+\item[M1)] Multiplication is \textbf{associative}:  \(\forall x, y, z \in A, (x \times y) \times z = x \times (y \times z)\).
+\item[M2)] Multiplication has a \textbf{neutral element}: \(\exists 1 \in A\) such that $\forall x \in A, 1 \times x = x$ and $x \times 1 = x$. $1$ is also called \textbf{identity}.
+\item[M3)] Multiplication is \textbf{commutative}: \(\forall x, y \in A, x \times y = y \times x\).
+\item[D)] Addition is \textbf{distributive} with respect to multiplication:  \(\forall x, y, z \in A, x \times (y + z) = x \times y + x \times z\).
+\end{enumerate}
+
+We may denote \(a \times b\) by \(a \cdot b\) or simply \(ab\) and context will elucidate.
+\end{defn}
+
+If, for a given ring, all these properties are satisfied except for the commutative of multiplication, then we'll call it a non-commutative ring.
+
+Some important remarks:
+\begin{itemize}
+\item The neutral element is unique, both for addition and multiplication.
+\item The inverse element, with respect to addition, is unique.
+\item The neutral element of addition has the following property: \(0 \cdot x = 0, \forall x \in A\).
+\end{itemize}
+
+We also define a \textbf{subring} of a ring as the subset which is closed under the operations of addition, subtraction, and multiplication and also contains the element $1$.
+
+Before heading to some examples, let give two important definitions.
+
+\subsection{Domain}\label{domain}
+
+If the product of any two non-zero elements of a given ring \(D\) is different than zero, then this ring is called a \textbf{domain} or an \textbf{integral domain}.
+\[\text{M4) } \forall x, y \in D \setminus \{ 0 \}, \, x \times y \neq 0\]
+
+Hence, if $D$ is an integral domain, $a,b,c \in D$ and $ab = ac$, then $a \neq 0$ implies $b=c$. This is called \textbf{cancellation law}.
+
+An immediate example of a domain is $(\mathbb{Z}, +, \times)$.
+
+\subsection{Field}\label{field}
+
+If every non-zero element of a given ring has a multiplicative inverse, then this ring is called a \textbf{field}. Symbolically,
+\[\text{M4') }\forall x \in K \setminus \{0 \}, \, \exists y \in K : x \times y = 1\]
+This inverse is also unique and the inverse of $x$ is denoted by $x^{-1}$.
+
+Please take notice that this property is stronger than the property that defines a domain. That means that is \(K\) is a field, then \(K\) is also a domain. Although not all domains are fields, if the domain has a finite number of elements, then it is a field.
+
+E.g. \((\mathbb{Q},+,\times), (\mathbb{R},+,\times), (\mathbb{C},+,\times)\) are fields.
+
+\section{Examples}
+
+\subsection{Gaussian Integers}
+
+Let \(\mathbb{Z}[i] = \{ a+ bi \, |  \, a,b \in \mathbb{Z} \}\). Then \((\mathbb{Z}[i], +, \times)\) is a domain called \textbf{Gaussian integers}. This idea can be generalized by defining a subring generated by $n$ as $\mathbb{Z}[n]$.
+
+\subsection{Direct product}\label{direct-product}
+
+Given two rings \((A_1, +_1, \cdot_1)\) and \((A_2, +_2, \cdot_2)\), it's possible to construct a new ring defining:
+
+\begin{itemize}
+\item
+  The set
+  \(A_1 \times A_2 := \{ (a_1, a_2) \, | \, a_1 \in A_1, a_2 \in A_2 \}\)
+\item
+  Addition:
+  \((a_1, a_2) + (a_1', a_2') := (a_1 +_1 a_1', a_2 +_2 a_2')\)
+\item
+  Multiplication:
+  \((a_1, a_2) \times (a_1', a_2') := (a_1 \cdot_1 a_1', a_2 \cdot_2 a_2')\).
+\end{itemize}
+
+Then \((A_1 \times A_2, +, \cdot)\) is a ring called \textbf{direct product} of \(A_1\) and \(A_2\).
+
+\subsection{Ring of integers modulo n}
+
+Let \(n \in \mathbb{Z}_+\) and define the relation \(\underset{n}{\equiv}\) as: given $a,b \in \mathbb{Z}$,
+\[ a \underset{n}{\equiv} b \iff a - b \text{ is a multiple of } n \]
+And we say that $a$ is congruent to $b$ modulo $n$. Notice that \(\underset{n}{\equiv}\) is an equivalence class.
+
+The equivalence class of $a$ is denoted by \(\bar{a} = \{ b \in \mathbb{Z} \, | \, b \underset{n}{\equiv} a \} = \{ a+kn, k \in \mathbb{Z} \}\).
+
+We also write \(\mathbb{Z}/n \mathbb{Z}\) to denote the set of equivalence classes modulo \(n\), i.e. \(\mathbb{Z}/n \mathbb{Z} = \{ \bar{0}, \bar{1}, \ldots, \overline{n-1} \}\). And we define the following compositions over it:
+\begin{equation*}
+\begin{aligned}
+\underset{n}{\oplus}:  \mathbb{Z}/n \mathbb{Z} & \times \mathbb{Z}/n \mathbb{Z} &\to \mathbb{Z}/n \mathbb{Z}\\
+&(\bar{x}, \bar{y}) &\mapsto \overline{x+y}
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\underset{n}{\odot}: \mathbb{Z}/n \mathbb{Z} & \times \mathbb{Z}/n \mathbb{Z} &\to \mathbb{Z}/n \mathbb{Z}\\
+&(\bar{x}, \bar{y}) &\mapsto \overline{xy}
+\end{aligned}
+\end{equation*}
+
+Then $(\mathbb{Z}/n \mathbb{Z}, \underset{n}{\oplus}, \underset{n}{\odot})$ is a ring, where the neutral element for $\underset{n}{\oplus}$ is the class $\bar{0}$, the neutral element for $\underset{n}{\odot}$ is $\bar{1}$, and the inverse of $\bar{x}$ with respect to $\underset{n}{\oplus}$ is the class $\overline{-x}$.
+
+\subsection{Ideal}
+
+Before going to next example, a simple definition is necessary.
+
+\begin{defn}{Ideal}
+IIf \(I \subseteq A\), $I \neq \emptyset$, then \(I\) is called an \textbf{ideal} of \(A\) if
+\begin{itemize}
+\item
+  \(x+y \in I, \forall x, y \in I\).
+\item
+  \(ax \in I, \forall x \in I, \forall a \in A\).
+\end{itemize}
+\end{defn}
+
+For example, \(n \mathbb{Z} := \{zn \, | \, z \in \mathbb{Z} \}\) is an ideal of the ring of integers (where \(n\) is a non-negative integer).
+
+This concept allows us to make constructions analogous to the ring of integers modulo \(n\). In general, an ideal is not a ring because it usually lacks a neutral element.
+
+\subsection{Quotient ring modulo an ideal}
+
+Given a ring $A$ and $I$ an ideal of $A$, define the following congruence relation: for $a, b \in A$,
+\[a \equiv b \mod I \iff a- b \in I  \]
+Which is also an equivalence relation.
+
+If $a \in A$, then its class of equivalence modulo $I$ is given by \(\bar{a} := \{ b \in A \, | \, b \equiv a \mod I \} = \{ a + c \, | \, c \in I \}\). We denote $A/I$ the set of equivalence classes modulo $I$, and we define the following operations over it: for $\bar{x}, \bar{y} \in A/I$, 
+\[
+\bar{x} \underset{I}{\oplus} \bar{y} := \overline{x+y} \text{ and } \bar{x} \underset{I}{\odot} \bar{y} := \overline{x\cdot y}
+\]
+These operations are well defined and $(A/I, \underset{I}{\oplus},  \underset{I}{\odot})$ is a ring called \textbf{quotient ring modulo an ideal}.
+
+% \section{Polynomial Rings}\label{polynomial-rings}
+
+% \section{Lattice}\label{lattice}
+
+% \section{Module}\label{module}
+
+% \section{Algebra}\label{algebra}
+
+\nocite{*}
+\bibliographystyle{alpha}
+\bibliography{algebra.bib}
+
+\end{document}
