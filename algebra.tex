@@ -15,26 +15,38 @@
 \renewcommand{\cftdot}{}
 \usepackage[colorlinks=true, allcolors=magenta]{hyperref}
 \usepackage{url}
+
+% Colors
 \usepackage[dvipsnames]{xcolor}
+\definecolor{fireopal}{rgb}{0.93, 0.38, 0.33}
+\definecolor{aquamarine}{rgb}{0.38, 0.83, 0.58}
+\definecolor{mintgreen}{rgb}{0.67, 0.97, 0.51}
+\definecolor{crayola}{rgb}{1, 0.85, 0.49}
+\definecolor{tangerine}{rgb}{1, 0.61, 0.52}
+
+% TColorBox
 \usepackage{tcolorbox}
 \tcbuselibrary{theorems}
 \newtcbtheorem[number within=section]{thm}{Theorem}%
-{colback=white!5,colframe=SpringGreen!35!black,fonttitle=\bfseries}{theorem}
-\newtcbtheorem[number within=section]{exemple}{Example}%
-{colback=white!5,colframe=Magenta!35!black,fonttitle=\bfseries}{theorem}
+{colback=white!5,colframe=fireopal!35!black,fonttitle=\bfseries, arc=0mm}{theorem}
+\newtcbtheorem[number within=section]{corollary}{Corollary}%
+{colback=white!5,colframe=aquamarine!35!black,fonttitle=\bfseries, arc=0mm}{theorem}
+\newtcbtheorem[number within=section]{example}{Example}%
+{colback=white!5,colframe=tangerine!35!black,fonttitle=\bfseries, arc=0mm}{theorem}
 \newtcbtheorem[number within=section]{defn}{Definition}%
-{colback=white!5,colframe=SpringGreen!35!black,fonttitle=\bfseries, arc=0mm}{theorem}
+{colback=white!5,colframe=mintgreen!35!black,fonttitle=\bfseries, arc=0mm}{theorem}
 \newenvironment{proof}{\paragraph{Proof:}}{\hfill$\blacksquare$}
+
 %\usepackage{sectsty}
 %\subsectionfont{\color{RubineRed}}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=magenta,
-    filecolor=cyan,      
-    urlcolor=magenta,
+    linkcolor=fireopal,
+    filecolor=aquamarine,      
+    urlcolor=fireopal,
     pdftitle={Algebra: The Basics of It},
-    pdfpagemode=FullScreen,
+    pdfpagemode=FitH,
     }
 \author{\href{https://adairneto.github.io/}{Adair Antonio da Silva Neto}}
 \title{Algebra: The Basics of It}
@@ -170,6 +182,8 @@ We also write \(\mathbb{Z}/n \mathbb{Z}\) to denote the set of equivalence class
 
 Then $(\mathbb{Z}/n \mathbb{Z}, \underset{n}{\oplus}, \underset{n}{\odot})$ is a ring, where the neutral element for $\underset{n}{\oplus}$ is the class $\bar{0}$, the neutral element for $\underset{n}{\odot}$ is $\bar{1}$, and the inverse of $\bar{x}$ with respect to $\underset{n}{\oplus}$ is the class $\overline{-x}$.
 
+Notice that if $p$ is a prime number, then $\mathbb{Z} / p\mathbb{Z}$ is a field.
+
 \subsection{Ideal}
 
 Before going to next example, a simple definition is necessary.
@@ -200,7 +214,143 @@ If $a \in A$, then its class of equivalence modulo $I$ is given by \(\bar{a} := 
 \]
 These operations are well defined and $(A/I, \underset{I}{\oplus},  \underset{I}{\odot})$ is a ring called \textbf{quotient ring modulo an ideal}.
 
-% \section{Polynomial Rings}\label{polynomial-rings}
+\section{Polynomial Rings}\label{polynomial-rings}
+
+\begin{defn}{Polynomial Ring}
+AA polynomial with coefficients in any ring $R$ is a linear combination of the powers of the variable:
+\[
+f(x) = a_0 + a_1 x + ldots + a_{n-1} x^{n-1} + a_n x^n
+\]
+where $a_0, a_1, \ldots, a_{n-1}, a_n \in R$. This is called a \textbf{polynomial in one variable over R} and is written $R[x]$. In fact, $R[x]$ is a ring, with the sum and product defined as follows. \\
+
+Let $g(x) = b_0 + b_1 x + b_2 x^2 + \ldots$ be a polynomial in the same ring. Then the sum of $f$ and $g$ is 
+\[
+f(x) +  g(x) = (a_0 + b_0) + (a_1 + b_1)x + (a_2 + b_2)x^2 + \ldots = \sum_k (a_k + b_k)x^k
+\]
+which corresponds to the vector addition. And the product is computed by multiplying term by term and collecting coefficients of the same degree in $x$. Expanding the product, we obtain
+\[
+f(x)g(x) = \sum_{i,j} a_i b_j x^{i+j} = p_0 + p_1 x + p_2 x^2 + \ldots
+\]
+where $p_k = a_0 b_k + a_1 b_{k-1} + \ldots + a_k b_0 = \sum_{i+j=k} a_i b_j$.
+\end{defn}
+
+Some important definitions:
+\begin{enumerate}
+\item The \textbf{degree} $n$ of $f(x)$ is the largest power of $a_i$ such that $a_i \neq 0$.  
+\item If $n$ is the degree of the polynomial, then $a_n$ is called \textbf{leading coefficient}. 
+\item If $a_n = 1$, then $f(x)$ is called \textbf{monic}.
+\end{enumerate}
+
+\begin{example}{}
+LLet $R$ be a ring, $f(X), g(X) \in R[X] \setminus \{ 0 \}$. Show that:
+\begin{enumerate}
+\item If $R$ is a domain, then 
+\[
+\deg(f(X) \cdot g(X)) = \deg f(X) + \deg g(X)
+\]
+\item $R[X]$ is a domain iff. $R$ is an integral domain.
+\end{enumerate}
+
+\textbf{Solution:} Suppose that $R$ is a domain and consider two polynomials $f$ and $g$ over it. Let $m$ be the degree of $f$ and $n$, the degree of $g$. Also letting $a_m$ be the leading coefficient of $f$ and $b_n$, the leading coefficient of $g$, the leading term of $fg = a_m b_n x^{m+n}$. Since $a_m b_n \neq 0$ (because $R$ is a domain), the degree of $f \cdot g$ is $m+n$ which is exactly what we needed for the first item. \\
+
+$(\Leftarrow)$ Suppose that $R$ is a domain with both $f, g \neq 0$. Then $\deg(f(X) \cdot g(X)) = \deg f(X) + \deg g(X)$ implies that $a_m b_n \neq 0$. Hence, $R[X]$ is a domain. \\
+
+$(\Rightarrow)$ Suppose that $R[X]$ is a domain. Then for $f, g \neq 0$, $fg \neq 0$. Therefore, its leading term $a_m b_n \neq 0$. Which means that any pair of non-negative elements of $R$ is different than zero, i.e., $R$ is a domain.
+
+\hfill $\blacksquare$
+\end{example}
+
+\begin{defn}{Ring of polynomials in $k$ variables}
+BBy induction, we can define the \textbf{ring of polynomials in $k$ variables} as follows:
+\[
+A[X_1,\ldots,X_k] = A([X_1,\ldots,X_{k-1}])[X_k]
+\]
+\end{defn}
+
+For k=2 we have $A[X_1,X_2] = (A[X_1])[X_2]$:
+\begin{equation*}
+\begin{aligned}
+f(x_1,x_2) & = a_{nm}x_1^{n} x_2^{m} + \ldots + a_{11}x_1 x_2 + a_{10}x_1 + a_{01}x_2 + a_{00} \\
+& = \sum_{i=0}^n \sum_{j=0}^m a_{ij} x_1^i x_2^j
+\end{aligned}
+\end{equation*}
+
+\begin{defn}{Associated polynomial function}
+GGiven $f(X) = \sum_{i=0}^n  a_i X^i \in A[X]$, we can define the \textbf{associated polynomial function} $\bar{f} : A \to A$ defined by $\bar{f}(\alpha) = \sum_{i=0}^n a_i \alpha^i$.
+\end{defn}
+
+Please take notice that the polynomial function $\bar{f}$ and the \textbf{formal polynomial} $f$ are different things.
+
+\section{Euclidean Domains}
+
+The Euclidean Algorithm shows that in $\mathbb{Z}$ we can divide an element $a$ by another element $b$ obtaining a remainder such that its absolute value is smaller then the absolute value of $b$. 
+
+To generalize that idea, we need a set with addition and multiplication and some way to measure if an element of the set is smaller than the other. Intuitively, an euclidean domain is an integral domain in which there is an algorithm similar to that of Euclid.
+
+\begin{defn}{Euclidean Domain}
+AAn \textbf{euclidean domain} $(D, +, \cdot, \varphi)$ is an integral domain $(D,+,\cdot)$ with a function
+\[
+\varphi : D \setminus \{0 \} \to \mathbb{N}
+\]
+satisfying:
+\begin{enumerate}
+\item $\forall a,b \in D, b \neq 0$ there are $t, r \in D$ such that $a = bt+r$ where $\varphi(r) < \varphi(b)$ or $r = 0$.
+\item $\varphi(a) \leq \varphi(ab), \, \forall a,b, \in D \setminus \{0\}$.
+\end{enumerate}
+\end{defn}
+
+\begin{thm}{Euclid Algorithm for $\mathbb{Z}$}
+LLet $ | \cdot | :  \mathbb{Z} \to \mathbb{N} $ the absolute value function. Then:
+\begin{enumerate}
+\item $(\mathbb{Z}, +, \cdot, | \cdot |)$ is an euclidean domain, i.e.
+\begin{itemize}
+\item $(\mathbb{Z}, + \cdot)$ is a domain.
+\item $\forall a,b \in \mathbb{Z}, b \neq 0$ there are $t, r \in \mathbb{Z}$ such that $a = bt+r$ where $|r| < |b|$ or $r = 0$.
+\item $|a| \leq |ab|, \, \forall a,b, \in \mathbb{Z} \setminus \{0\}$.
+\end{itemize}
+\item $t$ and $r$ can be computed.
+\item In general, $t$ and $r$ are not unique.
+\item It's always possible to choose $r \geq 0$ in an unique way.
+\end{enumerate}
+\end{thm}
+
+Using this theorem, we can find that all ideals of $(\mathbb{Z},+,\cdot)$ are of the form $n \mathbb{Z}$ with $n \geq 0$.
+
+\begin{defn}{Norm}
+TThe function
+\begin{equation*}
+\begin{aligned}
+N : \mathbb{C} & \to \mathbb{R} \\
+a+bi & \mapsto (a+bi)(a-bi)
+\end{aligned}
+\end{equation*}
+is called \textbf{norm}.
+%$N : \mathbb{Z} \to \mathbb{N}, N(a) = a^2$ such that $N(a) \leq N(ab), \, \forall a,b, \in \mathbb{Z} \setminus \{0\}$
+\end{defn}
+
+\begin{thm}{Gaussian Integers}
+LLet $\mathbb{Z}[i]$ the ring of Gaussian integers and $N : \mathbb{Z}[i] \to \mathbb{N}, N(a+bi) = a^2+b^2$ the norm function. Then
+\begin{enumerate}
+\item $(\mathbb{Z}[i],+,\cdot,N)$ is an euclidean domain.
+\item $t$ and $r$ can be computed.
+\item In general, $t$ and $r$ are not unique.
+\end{enumerate}
+\end{thm}
+
+An example of euclidean domain with polynomial rings is the \textbf{division of polynomials}.
+
+Given a ring $R$, $f(x), g(x) \in R[x]$, where the leading coefficient of $g(x)$ is invertible in $R$, then the following affirmations hold:
+\begin{enumerate}
+\item There are $t(x), r(x) \in R[x]$ such that $f(x) = g(x)t(x) + r(x)$ where $\deg r(x) < \deg g(x)$ or $r(x) = 0$.
+\item The polynomials $t(x)$ and $r(x)$ can be effectively computed.
+\item The polynomials $t(x)$ and $r(x)$ are uniquely determined.
+\end{enumerate}
+
+\begin{example}{}
+LLet $(T,+,\cdot)$ be a ring and $R \subseteq T$ a subset such that $(R,+,\cdot)$ is a ring. Also let $f(x), g(x) \in R[x]$ where the leading coefficient of $g(x)$ is invertible in $R$. Show that if $t(x), r(x) \in T[x]$ satisfies $f(x) = g(x) t(x) + r(x)$ with $\deg r(x) < \deg g(x)$ or $r(x) = 0$, then $t(x), r(x) \in R[x]$. \\
+
+\textbf{Solution: } If $f(x) = 0$ or $\deg f(x) < \deg g(x)$ then $t(x) = 0$ and $r(x) = f(x)$. Since $R$ is a ring, then $0 \in R$, i.e. $t(x), r(x) \in R[x]$. If $\deg f(x) \geq \deg g(x) = m$, then let $f(x) = a_nx^n + \ldots + a_0$, where $n \geq m$ and $a_n \neq 0$. And write $g(x) = b_m x^m + \ldots + b_0$. Since $b_m$ is invertible, $\frac{1}{b_m} \in R$...
+\end{example}
 
 % \section{Lattice}\label{lattice}
 

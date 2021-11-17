@@ -10,3 +10,5 @@
 \contentsline {subsection}{\numberline {3.3}Ring of integers modulo n}{4}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Ideal}{4}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Quotient ring modulo an ideal}{5}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Polynomial Rings}{6}{section.4}%
+\contentsline {section}{\numberline {5}Euclidean Domains}{8}{section.5}%
