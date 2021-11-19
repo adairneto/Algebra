@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Definitions}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Ring}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Domain}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Domain}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Field}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Examples}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Gaussian Integers}{3}{subsection.3.1}%
@@ -12,3 +12,6 @@
 \contentsline {subsection}{\numberline {3.5}Quotient ring modulo an ideal}{5}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Polynomial Rings}{6}{section.4}%
 \contentsline {section}{\numberline {5}Euclidean Domains}{8}{section.5}%
+\contentsline {section}{\numberline {6}Ring Homomorphisms}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Elementary properties}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Isomorphisms Theorem}{12}{subsection.6.2}%
