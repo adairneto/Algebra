@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  19 NOV 2021 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  25 NOV 2021 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,13 +411,32 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks31
+\thm@bodyfont=\toks32
+\thm@headfont=\toks33
+\thm@notefont=\toks34
+\thm@headpunct=\toks35
+\thm@preskip=\skip84
+\thm@postskip=\skip85
+\thm@headsep=\skip86
+\dth@everypar=\toks36
+)
+\c@theorem=\count285
+\c@example=\count286
+\c@definition=\count287
+ (./quiver.sty
+Package: quiver 2021/01/11 quiver
 
+(/usr/share/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
+
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks31
+\pgfutil@everybye=\toks37
 \pgfutil@tempdima=\dimen153
 \pgfutil@tempdimb=\dimen154
 
@@ -454,11 +473,11 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks40
 ))
 \pgf@x=\dimen157
 \pgf@y=\dimen158
@@ -472,14 +491,14 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yd=\dimen166
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count285
-\c@pgf@countb=\count286
-\c@pgf@countc=\count287
-\c@pgf@countd=\count288
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count289
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count292
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -494,8 +513,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count290
-\pgfsyssoftpath@bigbuffer@items=\count291
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -508,11 +527,11 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen167
-\pgfmath@count=\count292
+\pgfmath@count=\count295
 \pgfmath@box=\box52
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -525,7 +544,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count293
+\c@pgfmathroundto@lastzeros=\count296
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -558,7 +577,7 @@ File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count294
+\pgf@picture@serial@count=\count297
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -586,8 +605,8 @@ File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count295
-\pgf@shadingcount=\count296
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -622,53 +641,96 @@ Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks41
-\verbatim@line=\toks42
-\verbatim@in@stream=\read4
-)
-(/usr/share/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 ))
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count297
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count300
+\pgfplotmarksize=\dimen196
 )
-\tcb@titlebox=\box58
-\tcb@upperbox=\box59
-\tcb@lowerbox=\box60
-\tcb@phantombox=\box61
-\c@tcbbreakpart=\count298
-\c@tcblayer=\count299
-\c@tcolorbox@number=\count300
-\tcb@temp=\box62
-\tcb@temp=\box63
-\tcb@temp=\box64
-\tcb@temp=\box65
-\tcb@out=\write4
-\tcb@record@out=\write5
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen256
+\tikz@lastmovetox=\dimen257
+\tikz@lastmovetoy=\dimen258
+\tikzleveldistance=\dimen259
+\tikzsiblingdistance=\dimen260
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
 )
-(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.42'
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdfcol.sty
-Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+\tikz@expandcount=\count308
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+matrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box66
-\tcb@totalupperbox=\box67
-\tcb@totallowerbox=\box68
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+quotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-\c@tcb@cnt@thm=\count301
-\c@tcb@cnt@corollary=\count302
-\c@tcb@cnt@example=\count303
-\c@tcb@cnt@defn=\count304
-Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen261
+\pgfarrowlength=\dimen262
+\pgfarrowwidth=\dimen263
+\pgfarrowlinewidth=\dimen264
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathmorphing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen265
+\pgfdecoratedremainingdistance=\dimen266
+\pgfdecoratedinputsegmentcompleteddistance=\dimen267
+\pgfdecoratedinputsegmentremainingdistance=\dimen268
+\pgf@decorate@distancetomove=\dimen269
+\pgf@decorate@repeatstate=\count309
+\pgfdecorationsegmentamplitude=\dimen270
+\pgfdecorationsegmentlength=\dimen271
+)
+\tikz@lib@dec@box=\box62
+)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathmorphing.code.tex)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 66.
 
 
 Package hyperref Warning: Values of option `pdfpagemode':
@@ -679,70 +741,39 @@ Package hyperref Warning: Values of option `pdfpagemode':
 (hyperref)                * `UseOC' (PDF 1.5)
 (hyperref)                * `UseAttachments' (PDF 1.6)
 (hyperref)                * An empty value disables the option.
-(hyperref)                Unknown value `FitH' on input line 52.
+(hyperref)                Unknown value `FitH' on input line 66.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
-\l__pdf_internal_box=\box69
-) (./algebra.aux
-
-LaTeX Warning: Label `theorem:A' multiply defined.
-
-
-LaTeX Warning: Label `theorem:A' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:L' multiply defined.
-
-
-LaTeX Warning: Label `theorem:C' multiply defined.
-
-)
+\l__color_backend_stack_int=\count310
+\l__pdf_internal_box=\box63
+) (./algebra.aux)
 \openout1 = `algebra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
  (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\c@mv@tabular=\count306
-\c@mv@boldtabular=\count307
-Package hyperref Info: Link coloring ON on input line 56.
+\c@mv@tabular=\count311
+\c@mv@boldtabular=\count312
+Package hyperref Info: Link coloring ON on input line 70.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -753,30 +784,30 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count308
+\c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
 
 (./algebra.out) (./algebra.out)
-\@outlinefile=\write6
-\openout6 = `algebra.out'.
+\@outlinefile=\write4
+\openout4 = `algebra.out'.
 
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count309
-\scratchdimen=\dimen194
-\scratchbox=\box70
-\nofMPsegments=\count310
-\nofMParguments=\count311
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count312
-\MPscratchDim=\dimen195
-\MPnumerator=\count313
-\makeMPintoPDFobject=\count314
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count314
+\scratchdimen=\dimen272
+\scratchbox=\box64
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen273
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -789,22 +820,22 @@ e
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <20.74> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 59.
+ut line 73.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 59.
+(Font)              scaled to size 20.74pt on input line 73.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 59.
+ut line 73.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 59.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+(Font)              scaled to size 14.4pt on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -816,15 +847,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 63.
+ut line 77.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 63.
+(Font)              scaled to size 17.28pt on input line 77.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 63.
+line 77.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 63.
+(Font)              scaled to size 17.28pt on input line 77.
  (./algebra.toc
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
 
@@ -833,32 +864,27 @@ line 2.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
 )
-\tf@toc=\write7
-\openout7 = `algebra.toc'.
+\tf@toc=\write5
+\openout5 = `algebra.toc'.
 
  [2]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 81.
+line 95.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 81.
-
-Underfull \hbox (badness 6559) in paragraph at lines 101--102
-[]\T1/FiraSans-OsF/regular/n/12 Addition is \T1/FiraSans-OsF/bold/n/12 dis-trib
-u-tive \T1/FiraSans-OsF/regular/n/12 with re-spect to mul-ti-pli-ca-tion:
- []
-
+(Font)              scaled to size 14.4pt on input line 95.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \end{defn}
-                 [1
+l.115 \item[D)]
+                Addition is \textbf{distributive} with respect to multiplica...
+[1
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 111.
+ut line 125.
  (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
 s-OsF.
@@ -866,72 +892,85 @@ s-OsF.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <12> not availabl
 e
 (Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
-put line 111.
+put line 125.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 125.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 123.
+ut line 137.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 123.
+(Font)              scaled to size 8.0pt on input line 137.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 123.
+ut line 137.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 123.
+(Font)              scaled to size 6.0pt on input line 137.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 ...\}, \, \exists y \in K : x \times y = 1\]
+l.146 ...\}, \, \exists y \in K : x \times y = 1\]
                                                    [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not availabl
+e
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
+put line 278.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 278.
+ [6]
+Overfull \hbox (12.85501pt too wide) in paragraph at lines 301--302
+[][]\T1/FiraSans-OsF/bold/n/12 Definition 4.3 \T1/FiraSans-OsF/regular/n/12 (As
+-so-ci-ated poly-no-mial func-tion)\T1/FiraSans-OsF/bold/n/12 . []\T1/FiraSans-
+OsF/regular/n/12 GGiven $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\
+OT1/cmr/m/n/12 ) = [][] \OML/cmm/m/it/12 a[]X[] \OMS/cmsy/m/n/12 2
+ []
 
+[7] [8]
+Overfull \hbox (0.81001pt too wide) in paragraph at lines 392--393
+[][]\T1/FiraSans-OsF/bold/n/12 Definition 6.1 \T1/FiraSans-OsF/regular/n/12 (Ri
+ng Ho-mo-mor-phisms)\T1/FiraSans-OsF/bold/n/12 . []\T1/FiraSans-OsF/regular/n/1
+2 Let $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A; \OT1/cmr/m/n/12 +\OML/cmm/m/it/12 ;
+ \OMS/cmsy/m/n/12 ^^A\OT1/cmr/m/n/12 )$ \T1/FiraSans-OsF/regular/n/12 and $\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 B; \OMS/cmsy/m/n/12 ^^H\OML/cmm/m/it/12 ; \OMS/cm
+sy/m/n/12 ^^L\OT1/cmr/m/n/12 )$ \T1/FiraSans-OsF/regular/n/12 two rings.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
-
- []
-
-[9]
-Overfull \hbox (2.74391pt too wide) in paragraph at lines 386--387
+Overfull \hbox (2.74391pt too wide) in paragraph at lines 400--401
 []\T1/FiraSans-OsF/regular/n/12 Before head-ing on, let us con-sider some ex-am
 -ples of ho-mo-mor-phisms: 
  []
 
-[10] [11] [12] (./algebra.bbl
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not availabl
-e
+[9] [10]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
+
 (Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
-put line 5.
+put line 452.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 5.
-) [13] (./algebra.aux)
+(Font)              scaled to size 8.0pt on input line 452.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
 
-LaTeX Warning: There were multiply-defined labels.
-
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
+put line 452.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 452.
+ [11] [12] [13] [14] (./algebra.bbl) [15] (./algebra.aux)
 Package rerunfilecheck Info: File `algebra.out' has not changed.
-(rerunfilecheck)             Checksum: A642E0CABCC2B65BD8C202D7C5B43A18;2020.
+(rerunfilecheck)             Checksum: E823E4CD5A0641EDCAEF36D22D28E413;2303.
  ) 
 Here is how much of TeX's memory you used:
- 22295 strings out of 478994
- 400179 string characters out of 5864750
- 712021 words of memory out of 5000000
- 39278 multiletter control sequences out of 15000+600000
- 558464 words of font info for 75 fonts, out of 8000000 for 9000
+ 23815 strings out of 478994
+ 445461 string characters out of 5864750
+ 743456 words of memory out of 5000000
+ 40719 multiletter control sequences out of 15000+600000
+ 587729 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 112i,10n,116p,476b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 142i,15n,144p,497b,1073s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-
 dist/fonts/enc/dvips/fira/fir_d67aat.enc}</usr/share/texmf-dist/fonts/type1/pub
 lic/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraS
@@ -945,10 +984,10 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb>
-Output written on algebra.pdf (15 pages, 280586 bytes).
+Output written on algebra.pdf (17 pages, 290339 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
