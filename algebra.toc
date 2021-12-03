@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {2.2}Domain}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Field}{2}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Examples}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Gaussian Integers}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Gauss Integers}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Direct product}{3}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Ring of integers modulo n}{3}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Ideal}{4}{subsection.3.4}%
@@ -14,6 +14,7 @@
 \contentsline {section}{\numberline {5}Euclidean Domains}{7}{section.5}%
 \contentsline {section}{\numberline {6}Ring Homomorphisms}{9}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Elementary properties}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}The Isomorphisms Theorem}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}The Isomorphisms Theorem}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Canonical Decomposition}{12}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Factorization}{12}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Noetherian Domains}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.1}Noetherian Domains}{14}{subsection.7.1}%

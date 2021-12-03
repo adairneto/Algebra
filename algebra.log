@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  26 NOV 2021 17:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  3 DEC 2021 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,7 +372,72 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/usr/share/texmf-dist/tex/latex/mathastext/mathastext.sty
+Package: mathastext 2019/11/16 v1.3w Use the text font in math mode (JFB)
+\mst@exists@muskip=\muskip17
+\mst@forall@muskip=\muskip18
+\mst@prime@muskip=\muskip19
+\mst@do@nonletters=\toks32
+\mst@do@easynonletters=\toks33
+\mst@do@az=\toks34
+\mst@do@AZ=\toks35
+\symmtoperatorfont=\mathgroup11
+\symmtletterfont=\mathgroup12
+
+** ! and ?
+** punctuation: , . : ; and \colon
+LaTeX Info: Redefining \rightarrowfill on input line 790.
+LaTeX Info: Redefining \leftarrowfill on input line 795.
+** + and =
+** adding = ; and + to \nfss@catcodes
+** parentheses ( ) [ ] and slash /
+** alldelims: < > \backslash \setminus | \vert \mid \{ and \}
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 932.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 944.
+LaTeX Info: Redefining \models on input line 953.
+** \# \mathdollar \% \& 
+** \imath and \jmath 
+LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `nor
+mal'
+(Font)                  T1/mdbch/b/it --> T1/mdbch/b/it on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `bol
+d'
+(Font)                  T1/mdbch/b/it --> T1/mdbch/b/it on input line 2140.
+LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `normal'
+(Font)                  T1/mdbch/m/it --> T1/mdbch/m/it on input line 2140.
+LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `bold'
+(Font)                  T1/mdbch/m/it --> T1/mdbch/b/it on input line 2140.
+LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `normal
+'
+(Font)                  T1/mdbch/m/n --> T1/mdbch/m/n on input line 2140.
+LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `bold'
+(Font)                  T1/mdbch/m/n --> T1/mdbch/b/n on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathbf' in version `normal'
+(Font)                  T1/mdbch/b/n --> T1/mdbch/b/n on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathbf' in version `bold'
+(Font)                  T1/mdbch/b/n --> T1/mdbch/b/n on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathit' in version `normal'
+(Font)                  T1/mdbch/m/it --> T1/mdbch/m/it on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathit' in version `bold'
+(Font)                  T1/mdbch/m/it --> T1/mdbch/b/it on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathsf' in version `normal'
+(Font)                  T1/cmss/m/n --> T1/cmss/m/n on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathsf' in version `bold'
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `normal'
+(Font)                  T1/cmtt/m/n --> T1/cmtt/m/n on input line 2140.
+LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `bold'
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 2140.
+** Latin letters in the normal (resp. bold) math versions are now
+** set up to use the fonts T1/mdbch/m(b)/it
+** Other characters (digits, ...) and \log-like names will be
+** typeset with the n shape.
+** \hbar
+** minus as endash
+** \Huge and \HUGE have been (re)-defined.
+** mathastext has declared larger sizes for subscripts.
+** To keep LaTeX defaults, use option `defaultmathsizes'.
+) (/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip53
@@ -483,7 +548,7 @@ Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count278
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
@@ -568,15 +633,15 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks32
-\thm@bodyfont=\toks33
-\thm@headfont=\toks34
-\thm@notefont=\toks35
-\thm@headpunct=\toks36
+\thm@style=\toks36
+\thm@bodyfont=\toks37
+\thm@headfont=\toks38
+\thm@notefont=\toks39
+\thm@headpunct=\toks40
 \thm@preskip=\skip85
 \thm@postskip=\skip86
 \thm@headsep=\skip87
-\dth@everypar=\toks37
+\dth@everypar=\toks41
 )
 \c@theorem=\count285
 \c@example=\count286
@@ -591,7 +656,7 @@ Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks38
+\pgfutil@everybye=\toks42
 \pgfutil@tempdima=\dimen153
 \pgfutil@tempdimb=\dimen154
 
@@ -628,11 +693,11 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks45
 ))
 \pgf@x=\dimen157
 \pgf@y=\dimen158
@@ -650,9 +715,9 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \c@pgf@countb=\count289
 \c@pgf@countc=\count290
 \c@pgf@countd=\count291
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
 \pgf@sys@id@count=\count292
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
@@ -684,9 +749,9 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmath@dimen=\dimen167
 \pgfmath@count=\count295
 \pgfmath@box=\box52
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -807,8 +872,8 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen194
 \pgffor@skip=\dimen195
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
@@ -885,7 +950,7 @@ decorations.code.tex
 )
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.pathmorphing.code.tex)))
-Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
 
 
 Package hyperref Warning: Values of option `pdfpagemode':
@@ -896,7 +961,7 @@ Package hyperref Warning: Values of option `pdfpagemode':
 (hyperref)                * `UseOC' (PDF 1.5)
 (hyperref)                * `UseAttachments' (PDF 1.6)
 (hyperref)                * An empty value disables the option.
-(hyperref)                Unknown value `FitH' on input line 66.
+(hyperref)                Unknown value `FitH' on input line 68.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
@@ -905,52 +970,54 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (./algebra.aux)
 \openout1 = `algebra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 72.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 7
-0.
+2.
  (/usr/share/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 72.
 LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 7
-0.
+2.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 
 Package mathdesign/mdbch Warning: Package 'amssymb' shouldn't be used in conjon
-ction with package mdbch, on input line 70.
+ction with package mdbch, on input line 72.
 
 
 Package mathdesign/mdbch Warning: Package 'amsfonts' shouldn't be used in conjo
-nction with package mdbch, on input line 70.
+nction with package mdbch, on input line 72.
 
-Package hyperref Info: Link coloring ON on input line 70.
+Package mathastext Info: current meaning of amsmath \resetMathstrut@ saved on i
+nput line 72.
+Package hyperref Info: Link coloring ON on input line 72.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -962,9 +1029,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 
 (./algebra.out) (./algebra.out)
 \@outlinefile=\write4
@@ -978,12 +1045,12 @@ LaTeX Info: Redefining \nameref on input line 70.
 \scratchbox=\box64
 \nofMPsegments=\count313
 \nofMParguments=\count314
-\everyMPshowfont=\toks50
+\everyMPshowfont=\toks54
 \MPscratchCnt=\count315
 \MPscratchDim=\dimen273
 \MPnumerator=\count316
 \makeMPintoPDFobject=\count317
-\everyMPtoPDFconversion=\toks51
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -994,215 +1061,209 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 73.
+(Font)              scaled to size 19.91054pt on input line 75.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 73.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
 LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 73.
+ 75.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 73.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.72005pt on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
 LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 73.
+ 75.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 73.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 73.
+ 75.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 73.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 73.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 73.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 73.
+ 75.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 73.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
 LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 73.
+ 75.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 73.
+(Font)              scaled to size 13.82408pt on input line 75.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 73.
+(Font)              scaled to size 11.52008pt on input line 75.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 73.
+(Font)              scaled to size 9.60007pt on input line 75.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 75.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 13.82408pt on input line 75.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 75.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 9.60007pt on input line 75.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 77.
+(Font)              scaled to size 16.58891pt on input line 79.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 16.58891pt on input line 77.
+(Font)              scaled to size 16.58891pt on input line 79.
  (./algebra.toc
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 2.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 2.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 2.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 2.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 2.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 2.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 2.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 2.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 2.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 2.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 2.
 )
 \tf@toc=\write5
 \openout5 = `algebra.toc'.
 
  [2]
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 95.
+(Font)              scaled to size 13.82408pt on input line 97.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \end{enumerate}
+l.118 \end{enumerate}
                       [1
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line
- 125.
+ 127.
 
 (/usr/share/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 125.
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 137.
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 137.
+(Font)              scaled to size 11.52008pt on input line 127.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 
+l.152 
        [2] [3]
-Overfull \hbox (1.5982pt too wide) in paragraph at lines 223--224
+Overfull \hbox (2.96524pt too wide) in paragraph at lines 233--234
 []\T1/mdbch/m/n/12 It's also use-ful to de-fine the \T1/mdbch/b/n/12 ideal gen-
-er-ated by \T1/mdbch/m/n/12 a set of el-e-ments $\OML/mdbch/m/it/12 a[]; [] ; a
-[] \OMS/mdbch/m/n/12 2
+er-ated by \T1/mdbch/m/n/12 a set of el-e-ments $\T1/mdbch/m/it/12 a[]\T1/mdbch
+/m/n/12 , [] , \T1/mdbch/m/it/12 a[] \OMS/mdbch/m/n/12 2
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
-[5]
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 278.
- [6] [7] [8] [9]
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 448.
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 448.
- [10]
-Overfull \hbox (2.26868pt too wide) in paragraph at lines 486--487
-[][]\T1/mdbch/b/n/12 Theorem 6.4. []\T1/mdbch/m/it/12 Let $\OML/mdbch/m/it/12 m
-[]; [] ; m[]$ \T1/mdbch/m/it/12 pos-i-tive in-te-gers, where each pair is rel-a
--tively prime.
+[5] [6] [7]
+Overfull \hbox (7.00839pt too wide) in paragraph at lines 372--373
+[]\T1/mdbch/m/n/12 There are $\T1/mdbch/m/it/12 t\T1/mdbch/m/n/12 (\T1/mdbch/m/
+it/12 x\T1/mdbch/m/n/12 ), \T1/mdbch/m/it/12 r\T1/mdbch/m/n/12 (\T1/mdbch/m/it/
+12 x\T1/mdbch/m/n/12 ) \OMS/mdbch/m/n/12 2 []\T1/mdbch/m/n/12 [\T1/mdbch/m/it/1
+2 x\T1/mdbch/m/n/12 ]$ such that $\T1/mdbch/m/it/12 f\T1/mdbch/m/n/12 (\T1/mdbc
+h/m/it/12 x\T1/mdbch/m/n/12 ) = \T1/mdbch/m/it/12 g\T1/mdbch/m/n/12 (\T1/mdbch/
+m/it/12 x\T1/mdbch/m/n/12 )\T1/mdbch/m/it/12 t\T1/mdbch/m/n/12 (\T1/mdbch/m/it/
+12 x\T1/mdbch/m/n/12 ) + \T1/mdbch/m/it/12 r\T1/mdbch/m/n/12 (\T1/mdbch/m/it/12
+ x\T1/mdbch/m/n/12 )$ where $[] \T1/mdbch/m/it/12 r\T1/mdbch/m/n/12 (\T1/mdbch/
+m/it/12 x\T1/mdbch/m/n/12 ) <
  []
 
-[11] [12] [13] (./algebra.bbl) [14] (./algebra.aux)
+[8] [9] [10]
+Overfull \hbox (2.56627pt too wide) in paragraph at lines 498--499
+[][]\T1/mdbch/b/n/12 Theorem 6.4. []\T1/mdbch/m/it/12 Let $m[]\T1/mdbch/m/n/12 
+, [] , \T1/mdbch/m/it/12 m[]$ pos-i-tive in-te-gers, where each pair is rel-a-t
+ively prime.
+ []
+
+[11] [12] [13]
+Overfull \hbox (9.3067pt too wide) in paragraph at lines 634--635
+[]$\OMS/mdbch/m/n/12 8 \T1/mdbch/m/it/12 a\T1/mdbch/m/n/12 , \T1/mdbch/m/it/12 
+b \OMS/mdbch/m/n/12 2 [] \T1/mdbch/m/n/12 \ {0}$ \T1/mdbch/m/it/12 it's pos-si-
+ble to ef-fec-tively com-pute $e\T1/mdbch/m/n/12 , \T1/mdbch/m/it/12 f \OMS/mdb
+ch/m/n/12 2 []$ \T1/mdbch/m/it/12 such that $[]\T1/mdbch/m/n/12 {\T1/mdbch/m/it
+/12 a\T1/mdbch/m/n/12 , \T1/mdbch/m/it/12 b\T1/mdbch/m/n/12 } =
+ []
+
+[14] (./algebra.bbl) [15] (./algebra.aux)
 Package rerunfilecheck Info: File `algebra.out' has not changed.
-(rerunfilecheck)             Checksum: E823E4CD5A0641EDCAEF36D22D28E413;2303.
+(rerunfilecheck)             Checksum: 5BFC8E4CAD231A76AC691223E83DD1DC;2464.
  ) 
 Here is how much of TeX's memory you used:
- 24338 strings out of 478994
- 447264 string characters out of 5864750
- 741199 words of memory out of 5000000
- 41194 multiletter control sequences out of 15000+600000
- 462743 words of font info for 133 fonts, out of 8000000 for 9000
+ 25243 strings out of 478994
+ 461071 string characters out of 5864750
+ 752893 words of memory out of 5000000
+ 42089 multiletter control sequences out of 15000+600000
+ 470988 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 142i,15n,144p,497b,1073s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 142i,16n,144p,497b,1359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texmf-dis
 t/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texmf-dist/fonts/type1/bi
 tstrea/charter/bchr8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/b
@@ -1213,10 +1274,10 @@ e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texmf
 -dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texmf-dist/f
 onts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on algebra.pdf (16 pages, 110264 bytes).
+Output written on algebra.pdf (17 pages, 110297 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 102 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
